@@ -1,0 +1,133 @@
+.header-toolbar {
+    --background: linear-gradient(90deg, #3A8DFF, #00D4FF);
+    --color: #ffffff;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #2F80ED, #56CCF2);
+    border-radius: 12px;
+    margin: 16px;
+    color: #ffffff;
+  }
+  
+  .profile-icon {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin-right: 16px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .edit-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .profile-name, .profile-name-input {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .profile-email, .profile-email-input {
+    font-size: 14px;
+    color: #e0f2ff;
+    margin: 4px 0 0 0;
+  }
+  
+  .profile-name-input ion-input,
+  .profile-email-input ion-input {
+    --padding-start: 0;
+    --padding-end: 0;
+  }
+  
+  .user-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    margin-bottom: 16px;
+  }
+  
+  .detail-item, .detail-item-input {
+    font-size: 16px;
+    color: #1e3a8a;
+  }
+  
+  .detail-item-input ion-input {
+    --padding-start: 0;
+    --padding-end: 0;
+  }
+  
+  .health-history-card,
+  .settings-card {
+    margin: 16px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #43CEA2, #185A9D);
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .section-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 20px 0 10px 0;
+    padding-left: 16px;
+  }
+  
+  .history-item {
+    font-size: 16px;
+    color: #e0f2f1;
+    margin: 0 0 8px 0;
+  }
+  
+  .health-entry-input {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .health-entry-input ion-textarea {
+    flex: 1;
+    --padding-start: 8px;
+    --padding-end: 8px;
+    margin-right: 8px;
+  }
+  
+  .settings-item {
+    padding: 8px 0;
+  }
+  
+  .settings-item ion-label {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .tab-bar {
+    --border: 1px solid #e2e8f0;
+  }
+  
+  .tab-button {
+    --color-selected: #00D4FF;
+  }
+  

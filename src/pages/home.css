@@ -1,0 +1,70 @@
+.home-content {
+  background-color: #f4f9fc;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  color: #1d2327;
+}
+
+.subtitle-text {
+  text-align: center;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.gradient-card {
+  color: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  padding: 5px;
+}
+
+.card-greenblue {
+  background: linear-gradient(135deg, #43CEA2, #185A9D);
+}
+
+.card-purpleblue {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.card-bluepink {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.card-orange {
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
+.alert-gradient {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+.quick-links {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #1d2327;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.gradient-button {
+  background: linear-gradient(90deg, #3A8DFF, #00D4FF);
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}

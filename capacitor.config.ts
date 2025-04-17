@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'emedic',
+  appId: 'com.predoc.aidoctor',
+  appName: 'PREDOC',
   webDir: 'dist'
 };
 
